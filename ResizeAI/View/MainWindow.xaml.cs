@@ -24,5 +24,10 @@ namespace ResizeAI.View
         {
             InitializeComponent();
         }
+
+        private void DragAndDrop_OnStorage(object sender, Controls.DragAndDropEventArgs e)
+        {
+
+        }
     }
 }
