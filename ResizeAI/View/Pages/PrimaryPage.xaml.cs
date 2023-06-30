@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ResizeAI.View
+namespace ResizeAI.View.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PrimaryPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PrimaryPage : Page
     {
-        public MainWindow()
+        public PrimaryPage()
         {
             InitializeComponent();
-        }
-
-        private void DragAndDrop_OnStorage(object sender, Controls.DragAndDropEventArgs e)
-        {
-
         }
     }
 }
